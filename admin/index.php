@@ -88,7 +88,7 @@ $categories = $conn->query("SELECT * FROM danh_muc ORDER BY id ASC");
 <body>
 
 <div id="sidebar">
-    <h4 class="text-center mb-4">⚙️ Admin Panel</h4>
+    <h4 class="text-center mb-4"><img src="<?php echo SITE_URL; ?>/assets/images/logo_LQT1.png" alt="Logo" width="70px"> Admin Panel</h4>
     <a href="#" onclick="showSection('dashboard')" class="active"><i class="fas fa-chart-line"></i> Dashboard</a>
     <a href="#" onclick="showSection('products')"><i class="fas fa-box"></i> Sản phẩm</a>
     <a href="#" onclick="showSection('orders')"><i class="fas fa-shopping-cart"></i> Đơn hàng</a>
